@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;200;300;400;500;600;700&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Kalam&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,900&family=Open+Sans&family=Poppins&display=swap"
+    rel="stylesheet">
+  
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+</head>
+<body>
+<header>
+  <div class="logo"><img src="./images/logo.svg" alt="game-logo"></div>
+  <div class="score-card">
+    <h3>score</h3>
+    <p id="score-value">12</p>
+  </div>
+</header >
+<!-- step 1 -->
+<div class="step-1 ">
+  <div class="triangle">
+    <!-- circle button -->
+    <div id="btn" class="rock">
+      <div class="rock-circle">
+        <img src="./images/icon-rock.svg" alt="">
+      </div>
+    </div>
+    <!-- end ofcircle button -->
+    <!-- circle button -->
+    <div id="btn" class="paper">
+      <div class="paper-circle">
+        <img src="./images/icon-paper.svg" alt="">
+      </div>
+    </div>
+    <!-- end ofcircle button -->
+    <!-- circle button -->
+    <div id="btn" class="scissors">
+      <div class="scissors-circle">
+        <img src="./images/icon-scissors.svg" alt="">
+      </div>
+    </div>
+    <!-- end ofcircle button -->
+    
+  </div>
+</div>
+<!-- end of step 1 -->
+
+<!-- step 4 -->
+<div class="step-4 hidden">
+  <div class="container">
+
+    <div class="user-choice ">
+      <p class="user-text">YOU PICKED</p>
+      <div class="choice">
+  <!-- circle button -->
+  <div id="user">
+    <div id="user-main" >
+      <img id="user-img"src="" alt="">
+    </div>
+  </div>
+  <!-- end ofcircle button -->
+      </div>
+    </div>
+    <!-- end of user choice -->
+  
+    <!-- you-win section -->
+    <div class="you-win hidden">
+      <h2 class="result-text">YOU WIN</h2>
+      <button class="play-again-btn">PLAY AGAIN</button>
+    </div>
+    <!-- end of you-win section -->
+    <!-- computer choice -->
+    <div class="computer-choice ">
+      <p class="computer-text">THE HOUSE PICKED</p>
+      <div class="choice">
+        <!-- empty circle button -->
+        <div class="empty circle">
+          <div class="empty-circle">
+            
+          </div>
+        </div>
+        <!-- end of empty circle button -->
+  <!-- circle button -->
+  <div id="computer">
+    <div id="computer-main">
+      <img id="computer-img"src="" alt="">
+    </div>
+  </div>
+  <!-- end ofcircle button -->
+  <!-- circle button -->
+      </div>
+    </div>
+  <!-- end of computer choice -->
+      <!-- win glow -->
+  <div class="win-glow user hidden">
+        <div class="glow-container">
+          <div class="glow one"></div>
+          <div class="glow two"></div>
+          <div class="glow three"></div>
+        </div>
+      </div>
+  <div class="win-glow house hidden">
+        <div class="glow-container">
+          <div class="glow one"></div>
+          <div class="glow two"></div>
+          <div class="glow three"></div>
+        </div>
+      </div>
+  </div>
+</div>
+<!-- end of step 4 -->
+<!-- rules modal -->
+<div class="rules-modal hidden">
+  <div class="rules-container">
+    <div class="rules-header">
+      <h2>RULES</h2>
+      <img src="./images/icon-close.svg" alt="" class="close-btn">
+    </div>
+    <img src="./images/image-rules.svg" alt="" class="rules">
+  </div>
+</div>
+<!-- end of rules modal -->
+<button class="rules-btn">RULES</button>
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>. -->
+  </div>
+  <script src="./app.js"></script>
+</body>
+</html>
