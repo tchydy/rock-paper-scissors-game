@@ -393,7 +393,7 @@ img .rules {
     padding: 10px;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 475px) {
   body {
     display: flex;
     flex-direction: column;
@@ -574,9 +574,13 @@ img .rules {
     display: none;
     z-index: -10;
   }
+  .rules-btn {
+    position: absolute;
+    bottom: 5.3%;
+  }
   .you-win {
     position: absolute;
-    top: 160%;
+    top: 130%;
     left: 50%;
     transform: translateX(-65%);
   }
@@ -628,7 +632,7 @@ img .rules {
   }
   .step-4 {
     position: absolute;
-    top: 35%;
+    top: 32%;
     left: 50%;
     transform: translateX(-50%);
   }
