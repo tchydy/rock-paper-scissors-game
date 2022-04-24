@@ -28,8 +28,8 @@ Users should be able to:
 
 ## My process
 - create html content
-- add styles to header step1 and nest step 1
-- create a function for rule button to display rules modal
+- add styles to header step 1 and next steps
+- create a function for rules button to display rules modal
 - when a user selects a button the next step page is displayed
 - random choices are generated for computer
 - based on the rules, create a function to check for wins
